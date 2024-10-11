@@ -19,7 +19,13 @@ Este es un proyecto de navegador web simple creado con HTML, CSS y JavaScript. L
 - `css/barra-lateral.css`: Estilos específicos para la barra lateral.
 - `js/busqueda.js`: Script que maneja la funcionalidad del buscador.
 - `js/ajustes.js`: Script para la configuración de la página.
-- `js/tiempo.js`: Script que gestiona el widget del tiempo.
+- `js/tiempo.js`: Script que gestiona el widget del tiempo, aqui deveras agregar tu api de Open Weather Map y tu localidad.
+
+## Requisitos
+
+- Api de Open Weather Map, puedes optener una en el siguiente link:
+   `https://openweathermap.org/api`
+
 
 ## Instalación
 
