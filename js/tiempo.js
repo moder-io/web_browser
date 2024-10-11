@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    var apiKey = 'bec81c47eb7084cf8cbae8c40d02c9ee';
-    var city = 'Rincón de la Victoria';
+    var apiKey = ''; // Pon tu api aqui
+    var city = ''; // Pon tu localidad aqui
 
     function updateWeather() {
         $.getJSON('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=metric&appid=' + apiKey, function(data) {
